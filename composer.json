@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"YTUploader\\": "src/"}
+  },
+  "require": {
+    "google/apiclient": "1.1.*"
+  }
+}
