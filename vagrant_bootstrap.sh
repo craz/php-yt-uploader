@@ -6,7 +6,7 @@ apt-get update
 apt-get install -y apache2 python-software-properties software-properties-common php5 php5-curl
 
 # Prepare symlink
-if ! [ -L /var/www/html ]; then
-	rm -rf /var/www/html
-	ln -fs /vagrant /var/www/html
+if ! [ -L /var/www ]; then
+	rm -rf /var/www
+	ln -fs /vagrant /var/www
 fi
